@@ -34,7 +34,7 @@ function App() {
     <div className='App'>
       <AppContext.Provider
         value={{ firstText, secondText, updateText, secondUpdate }}>
-        <Second />
+        <Third />
       </AppContext.Provider>
     </div>
   );
